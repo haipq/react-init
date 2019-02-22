@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+#main {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+#sample-list {
+  flex: 1;
+  background: gray;
+  overflow: auto;
+}
+#second-section {
+  height: 100px;
+  background: violet;
+}
+#sidebar {
+  width: 30%;
+  background: cyan;
+  height: 100%;
+}
